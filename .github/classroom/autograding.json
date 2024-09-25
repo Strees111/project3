@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "1",
+      "output": "1 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "2",
+      "output": "2 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "3",
+      "output": "2 2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "10",
+      "output": "5 2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "15",
+      "output": "7 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "18",
+      "output": "7 4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "23",
+      "output": "9 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Tets 8",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "30",
+      "output": "10 4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "92",
+      "output": "22 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "2000000000",
+      "output": "1650964 845",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "4294967295",
+      "output": "2748047 1011",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "4294967296",
+      "output": "2748047 1012",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "9223372036854775808",
+      "output": "4574152700389 1735828",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "timeout 1 ./tower",
+      "input": "18446744073709551615",
+      "output": "7261014808460 3650542",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
